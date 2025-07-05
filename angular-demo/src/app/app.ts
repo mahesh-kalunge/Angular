@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  standalone: false,
+  styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'angular-demo';
+  protected title = 'Angular coding challenges';
 }
